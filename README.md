@@ -3,16 +3,18 @@ CCSorcerer is a tool for downloading ClassCharts' client app.
 It will also be used in GitHub Actions to automatically download the latest version of the client app, then publish a release when new changes are detected. This will be ran every week.
 
 ## Usage
+
 ### Download .exe for Windows
-Download the latest release from a build artifact found [here][actions].
-### Manually for Linux, macOS or Windows
+Download the latest `.exe` from a build artifact found [here][actions].
+
+### Manually build for Linux, macOS or Windows
 Clone the repo, using git or downloading the zip. Then, run the following command:
 ```bash
 deno run start
 ```
 Don't have `deno`? Check out the [requirements](#requirements) section.
 
-## Compile
+## Compile for Windows
 To compile the project for **Windows x86/x64**, run the following command:
 ```bash
 deno run windows
