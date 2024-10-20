@@ -7,7 +7,7 @@ It will also be used in GitHub Actions to automatically download the latest vers
 ### Download .exe for Windows
 Download the latest `.exe` from a build artifact found [here][actions].
 
-### Manually build for Linux, macOS or Windows
+### Manually run for Linux, macOS or Windows
 Clone the repo, using git or downloading the zip. Then, run the following command:
 ```bash
 deno run start
